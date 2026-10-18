@@ -21,7 +21,7 @@ In centralized learning, KNN was used as a technique to identify suspicious samp
 Literature Review Table
 
 | Reference	| Year	| Objectives	| Dataset	| Methods	| Results	| Limitations |
-|---|---|
+|---|---|---|---|---|---|---|
 | [2]	| 2020	| Testing the robustness of machine learning models against data poisoning. Training against label manipulation in IoT.	| UNSW-NB15, ToN_IoT	Random Forest Classifier, Gradient Boosting machine, Naïve Bayes, Feed-forward Deep Learning | Model performances degrade when number of trained normal observations is not larger than manipulated data.	| Test models with data poisoning defenses to determine their efficiency. |
 | [3]	| 2022	| Increasing robustness against data poisoning attacks using SecFedNIDS detecting poisoned models and poisoned data.	| UNSW-NB15, CICIDS2018 |	CNN, SecFedNIDS | Improved accuracy by 13%	| No explicit limitation mentioned. |
 | [4]	| 2023	| To reduce the impact of poisoning attacks on federated learning-based intrusion detection in IoT networks by proposing a lightweight detection mechanism on the central server. | CICIDS2017	| Loss-based scoring mechanism (LSM), K-means clustering, Manhattan similarity	The strategy improves the accuracy of the FL-based intrusion detection model on the CIC-IDS-2017 dataset from 84.3% to 97.1%, boosting IoT network security.	| One of the study’s limitations is the well-thought-out model of poisoning attacks.  The number of rounds, the number of malicious clients, and the attack launch time affect its efficacy. | 
