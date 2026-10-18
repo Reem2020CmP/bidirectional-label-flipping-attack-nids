@@ -21,3 +21,7 @@ As for the technologies our project will use, we will focus on machine learning 
 ## Evaluation Plan
 
 ## Ethical/Legal Considerations
+This research is undertaken with a sense of responsibility and is conducted for defensive and academic purposes and aims to improve the resilience of machine learning-based Network Intrusion Detection Systems (NIDS). Although label flipping techniques may be exploited to compromise machine learning-based security systems, this study focuses on understanding their effects and proposing and evaluating mechanisms for mitigating them. Therefore, we provide information about the attack only to the extent that allows conducting evaluations of the hybrid KNN-OOF method. 
+In other words, all the label-flipping attacks will be simulated using copies of the UNSW-NB15 dataset in a controlled environment. No actual network, production system, or third-party device will be attacked or accessed without authorization. The dataset is used in accordance with its terms, meant for academic purposes only. No personal information or live network traffic will be collected as part of the experiments. 
+Following that, to preserve the integrity of the evaluation, we will ensure that the original clean labels are stored separately before poisoning, using them only as ground truth after applying the defense mechanism to evaluate its effectiveness in identifying poisoned samples and correcting them. The defense wouldn’t have access to the original clean labels to prevent data leakage.
+
